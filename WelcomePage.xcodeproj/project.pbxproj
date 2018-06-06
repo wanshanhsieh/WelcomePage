@@ -14,6 +14,7 @@
 		B6FD812820BD96F100AAAE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD812620BD96F100AAAE3F /* LaunchScreen.storyboard */; };
 		B6FD813320BD96F100AAAE3F /* WelcomePageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD813220BD96F100AAAE3F /* WelcomePageTests.swift */; };
 		B6FD813E20BD96F100AAAE3F /* WelcomePageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD813D20BD96F100AAAE3F /* WelcomePageUITests.swift */; };
+		B6FD814E20BDA3F100AAAE3F /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD814D20BDA3F100AAAE3F /* PageItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6FD813920BD96F100AAAE3F /* WelcomePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FD813D20BD96F100AAAE3F /* WelcomePageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageUITests.swift; sourceTree = "<group>"; };
 		B6FD813F20BD96F100AAAE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FD814D20BDA3F100AAAE3F /* PageItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B6FD812420BD96F100AAAE3F /* Assets.xcassets */,
 				B6FD812620BD96F100AAAE3F /* LaunchScreen.storyboard */,
 				B6FD812920BD96F100AAAE3F /* Info.plist */,
+				B6FD814D20BDA3F100AAAE3F /* PageItemController.swift */,
 			);
 			path = WelcomePage;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FD814E20BDA3F100AAAE3F /* PageItemController.swift in Sources */,
 				B6FD812020BD96F000AAAE3F /* ViewController.swift in Sources */,
 				B6FD811E20BD96F000AAAE3F /* AppDelegate.swift in Sources */,
 			);
